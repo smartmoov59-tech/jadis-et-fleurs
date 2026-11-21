@@ -1,0 +1,765 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jadis &amp; Fleurs — Fleuriste à Chavigny (près de Nancy) · Bouquets, plantes, Noël</title>
+<meta name="description" content="Jadis &amp; Fleurs, fleuriste à Chavigny (54) : bouquets composés, roses, orchidées, plantes d’intérieur, créations et précommandes de Noël. Ouvert 7 jours sur 7 — 8a rue de Nancy — 03 83 31 83 92.">
+<meta name="theme-color" content="#1F3A2C">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Jadis &amp; Fleurs — Fleuriste à Chavigny">
+<meta property="og:description" content="Le plaisir des fleurs, au naturel. Bouquets sur commande, plantes, créations de Noël. 8a rue de Nancy, Chavigny.">
+<meta property="og:url" content="https://smartmoov59-tech.github.io/jadis-et-fleurs/">
+<meta property="og:image" content="https://smartmoov59-tech.github.io/jadis-et-fleurs/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="video/hero-poster.jpg" as="image">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js','is-loading');</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Florist",
+  "name": "Jadis & Fleurs",
+  "description": "Fleuriste à Chavigny : bouquets composés, roses, orchidées, plantes d’intérieur, créations de Noël, chèques-cadeaux.",
+  "image": "https://smartmoov59-tech.github.io/jadis-et-fleurs/img/og-image.jpg",
+  "url": "https://smartmoov59-tech.github.io/jadis-et-fleurs/",
+  "telephone": "+33383318392",
+  "email": "jadisetfleurs@outlook.fr",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "8a rue de Nancy",
+    "postalCode": "54230",
+    "addressLocality": "Chavigny",
+    "addressRegion": "Meurthe-et-Moselle",
+    "addressCountry": "FR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 48.6276076, "longitude": 6.1225736 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:30", "closes": "12:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Thursday","Friday","Saturday"], "opens": "14:30", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "13:00" }
+  ],
+  "hasMap": "https://www.google.com/maps/place/Jadis+%26+Fleurs/@48.6276076,6.1225736,17z",
+  "sameAs": ["https://www.facebook.com/jadisetfleurs/", "https://www.instagram.com/jadisetfleurs/"]
+}
+</script>
+</head>
+<body>
+
+<!-- ============ Icônes & motifs (sprite) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-flower" viewBox="0 0 100 100">
+      <g fill="currentColor">
+        <ellipse cx="50" cy="25" rx="11" ry="22"/>
+        <ellipse cx="50" cy="25" rx="11" ry="22" transform="rotate(60 50 50)"/>
+        <ellipse cx="50" cy="25" rx="11" ry="22" transform="rotate(120 50 50)"/>
+        <ellipse cx="50" cy="25" rx="11" ry="22" transform="rotate(180 50 50)"/>
+        <ellipse cx="50" cy="25" rx="11" ry="22" transform="rotate(240 50 50)"/>
+        <ellipse cx="50" cy="25" rx="11" ry="22" transform="rotate(300 50 50)"/>
+      </g>
+      <circle cx="50" cy="50" r="9" fill="var(--flower-core, #E4A93A)"/>
+    </symbol>
+    <symbol id="i-leaf" viewBox="0 0 100 50">
+      <path d="M2 25C20 2 70 -4 98 25 70 54 20 52 2 25Z"/>
+      <path d="M6 25H92" stroke="rgba(0,0,0,.28)" stroke-width="1.6" fill="none"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v6h4v-6h3l1-4h-4V9a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2l3 6.3 6.9.9-5 4.8 1.2 6.9L12 17.5 5.9 20.9 7.1 14 2.1 9.2l6.9-.9z" fill="currentColor"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 10h18M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M5 15V6a2 2 0 0 1 2-2h9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-sms" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ Préchargeur ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <svg class="loader__flower" viewBox="0 0 120 170" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path data-draw pathLength="1" d="M60 168C60 140 57 118 60 86"/>
+      <path data-draw pathLength="1" d="M59 134C44 130 34 120 30 106 46 108 56 118 59 134Z"/>
+      <path data-draw pathLength="1" d="M60 118C74 112 84 102 88 88 72 90 62 100 60 118Z"/>
+      <g class="loader__petals">
+        <path data-draw pathLength="1" d="M60 64C49 52 49 30 60 14 71 30 71 52 60 64Z"/>
+        <path data-draw pathLength="1" d="M60 64C49 52 49 30 60 14 71 30 71 52 60 64Z" transform="rotate(60 60 64)"/>
+        <path data-draw pathLength="1" d="M60 64C49 52 49 30 60 14 71 30 71 52 60 64Z" transform="rotate(120 60 64)"/>
+        <path data-draw pathLength="1" d="M60 64C49 52 49 30 60 14 71 30 71 52 60 64Z" transform="rotate(180 60 64)"/>
+        <path data-draw pathLength="1" d="M60 64C49 52 49 30 60 14 71 30 71 52 60 64Z" transform="rotate(240 60 64)"/>
+        <path data-draw pathLength="1" d="M60 64C49 52 49 30 60 14 71 30 71 52 60 64Z" transform="rotate(300 60 64)"/>
+      </g>
+      <circle class="loader__core" cx="60" cy="64" r="7" fill="currentColor" stroke="none"/>
+    </svg>
+    <p class="loader__name">Jadis <em>&amp;</em> Fleurs</p>
+    <p class="loader__count"><span id="loaderNum">0</span><small>%</small></p>
+  </div>
+  <div class="loader__scallop"></div>
+</div>
+
+<a class="skip" href="#main">Aller au contenu</a>
+<div class="progress" aria-hidden="true"><i></i></div>
+<div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><b class="cursor__label"></b></span></div>
+
+<!-- ============ Navigation ============ -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="#top" aria-label="Jadis &amp; Fleurs — retour en haut">
+    <svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>
+    <span>Jadis <em>&amp;</em> Fleurs</span>
+  </a>
+  <nav class="nav__links" aria-label="Navigation principale">
+    <a href="#atelier" data-scroll>L’Atelier</a>
+    <a href="#creations" data-scroll>Créations</a>
+    <a href="#noel" data-scroll>Noël</a>
+    <a href="#galerie" data-scroll>Galerie</a>
+    <a href="#avis" data-scroll>Avis</a>
+    <a href="#venir" data-scroll>Venir</a>
+  </nav>
+  <a class="btn btn--sm btn--mag nav__cta" href="#reserver" data-scroll><span>Commander</span></a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><i></i><i></i></button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav aria-label="Menu mobile">
+    <a href="#atelier" data-scroll><span>L’Atelier</span></a>
+    <a href="#creations" data-scroll><span>Créations</span></a>
+    <a href="#noel" data-scroll><span>Noël</span></a>
+    <a href="#galerie" data-scroll><span>Galerie</span></a>
+    <a href="#avis" data-scroll><span>Avis</span></a>
+    <a href="#reserver" data-scroll><span>Commander</span></a>
+    <a href="#venir" data-scroll><span>Nous trouver</span></a>
+  </nav>
+  <div class="menu__foot">
+    <a href="tel:+33383318392"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg> 03 83 31 83 92</a>
+    <p>8a rue de Nancy · Chavigny</p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top" aria-label="Accueil">
+  <div class="hero__media">
+    <video class="hero__video" id="heroVideo" muted loop playsinline preload="auto" poster="video/hero-poster.jpg" aria-hidden="true" tabindex="-1">
+      <source src="video/hero-hd_1280_720_25fps.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero__shade"></div>
+
+  <div class="hero__leaves hero__leaves--l" aria-hidden="true">
+    <svg viewBox="0 0 320 760" fill="none">
+      <path d="M30 760C70 600 120 470 175 330S250 90 262 0" stroke="#9DB08F" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+      <g fill="#6F8F6B">
+        <use href="#i-leaf" x="52" y="610" width="110" height="55" transform="rotate(-28 52 610)"/>
+        <use href="#i-leaf" x="92" y="520" width="120" height="60" transform="rotate(32 92 520)" fill="#86A57F"/>
+        <use href="#i-leaf" x="110" y="420" width="130" height="65" transform="rotate(-34 110 420)"/>
+        <use href="#i-leaf" x="152" y="330" width="120" height="60" transform="rotate(30 152 330)" fill="#86A57F"/>
+        <use href="#i-leaf" x="178" y="235" width="110" height="55" transform="rotate(-38 178 235)"/>
+        <use href="#i-leaf" x="214" y="140" width="100" height="50" transform="rotate(26 214 140)" fill="#86A57F"/>
+        <use href="#i-leaf" x="240" y="60" width="80" height="40" transform="rotate(-30 240 60)"/>
+      </g>
+    </svg>
+  </div>
+  <div class="hero__leaves hero__leaves--r" aria-hidden="true">
+    <svg viewBox="0 0 320 760" fill="none">
+      <path d="M290 760C250 620 200 500 150 380S80 130 66 0" stroke="#C9D4BB" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+      <g fill="#8EA886">
+        <use href="#i-leaf" x="230" y="640" width="100" height="50" transform="rotate(205 230 640)"/>
+        <use href="#i-leaf" x="200" y="540" width="110" height="55" transform="rotate(150 200 540)" fill="#A9BF9F"/>
+        <use href="#i-leaf" x="168" y="440" width="120" height="60" transform="rotate(210 168 440)"/>
+        <use href="#i-leaf" x="140" y="345" width="110" height="55" transform="rotate(152 140 345)" fill="#A9BF9F"/>
+        <use href="#i-leaf" x="106" y="250" width="100" height="50" transform="rotate(212 106 250)"/>
+        <use href="#i-leaf" x="84" y="150" width="90" height="45" transform="rotate(148 84 150)" fill="#A9BF9F"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="hero__content">
+    <p class="hero__kicker"><svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>Fleuriste · Chavigny · Meurthe-et-Moselle</p>
+    <h1 class="hero__title" aria-label="Jadis et Fleurs">
+      <span class="hero__l1" data-hero-line>Jadis</span>
+      <span class="hero__l2" data-hero-line><em>&amp;</em> Fleurs</span>
+    </h1>
+    <p class="hero__tag">Le plaisir des fleurs, <em>au naturel.</em></p>
+    <div class="hero__cta">
+      <a class="btn btn--primary btn--mag" href="#reserver" data-scroll><span>Commander un bouquet</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--glass btn--mag" href="tel:+33383318392"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>03 83 31 83 92</span></a>
+    </div>
+  </div>
+
+  <a class="hero__badge" href="#atelier" data-scroll aria-label="Découvrir l’atelier">
+    <svg viewBox="0 0 200 200" aria-hidden="true">
+      <defs><path id="badgeCircle" d="M100 100m-78 0a78 78 0 1 1 156 0a78 78 0 1 1-156 0"/></defs>
+      <text><textPath href="#badgeCircle" startOffset="0" textLength="486" lengthAdjust="spacing">Fleuriste · Chavigny · Fait main · Sur commande · </textPath></text>
+    </svg>
+    <svg class="ic hero__badge-ic" aria-hidden="true"><use href="#i-flower"/></svg>
+  </a>
+
+  <div class="hero__foot">
+    <p class="status" id="openStatus" role="status"><i class="status__dot"></i><span>Horaires en cours de lecture…</span></p>
+    <a class="hero__scroll" href="#atelier" data-scroll><span>Défiler</span><i></i></a>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<section class="band" aria-label="Nos spécialités">
+  <div class="marquee marquee--a" data-marquee data-speed="1.1" data-dir="1">
+    <div class="marquee__track"><div class="marquee__set">
+      <span>Bouquets composés</span><svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>
+      <span>Roses</span><svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>
+      <span>Orchidées</span><svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>
+      <span>Plantes d’intérieur</span><svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>
+      <span>Agrumes</span><svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>
+      <span>Mimosa</span><svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>
+    </div></div>
+  </div>
+  <div class="marquee marquee--b" data-marquee data-speed="0.9" data-dir="-1">
+    <div class="marquee__track"><div class="marquee__set">
+      <span>Créations de Noël</span><svg class="ic" aria-hidden="true"><use href="#i-leaf"/></svg>
+      <span>Chèques-cadeaux</span><svg class="ic" aria-hidden="true"><use href="#i-leaf"/></svg>
+      <span>Sur commande</span><svg class="ic" aria-hidden="true"><use href="#i-leaf"/></svg>
+      <span>Fait main</span><svg class="ic" aria-hidden="true"><use href="#i-leaf"/></svg>
+      <span>Objets déco</span><svg class="ic" aria-hidden="true"><use href="#i-leaf"/></svg>
+      <span>Ouvert 7j/7</span><svg class="ic" aria-hidden="true"><use href="#i-leaf"/></svg>
+    </div></div>
+  </div>
+</section>
+
+<!-- ============ L'ATELIER (section pinnée) ============ -->
+<section class="story edge-scallop" id="atelier" aria-labelledby="story-title">
+  <div class="story__pin">
+    <div class="story__stage">
+      <div class="story__arch">
+        <figure class="story__img" data-i="0"><img src="img/facade.jpg" alt="La façade ocre de la boutique « L’Atelier – Jadis &amp; Fleurs », ses fenêtres en arche, son ombrelle rouge et ses fleurs sur le trottoir" width="1500" height="844" loading="lazy"></figure>
+        <figure class="story__img" data-i="1"><img src="img/comptoir.jpg" alt="L’intérieur de la boutique : comptoir en bois brut, suspension, étagère à plantes" width="844" height="1500" loading="lazy"></figure>
+        <figure class="story__img" data-i="2"><img src="img/roses-blanches.jpg" alt="Roses blanches liserées de rose et gypsophile dans un vase" width="1351" height="1500" loading="lazy"></figure>
+        <figure class="story__img" data-i="3"><img src="img/roses-rouges-a.jpg" alt="Bouquet de roses rouges, orangées et blanches, composé à la boutique" width="1125" height="1500" loading="lazy"></figure>
+      </div>
+      <p class="story__note" aria-hidden="true">la boutique,<br>rue de Nancy</p>
+    </div>
+    <div class="story__text">
+      <p class="eyebrow">L’Atelier</p>
+      <h2 class="display" id="story-title" data-split>Une page qui se tourne, <em>un atelier</em> qui s’ouvre.</h2>
+      <div class="story__steps">
+        <article class="story__step">
+          <span class="story__num">01</span>
+          <h3>Jadis, les bureaux</h3>
+          <p>Hier, l’administratif. Aujourd’hui, des seaux de fleurs, des ciseaux et des mains qui sentent la tige coupée. Diplômée du CAP Fleuriste, Gwladys a tourné la page : une reconversion passion devenue boutique.</p>
+          <img class="story__mimg" src="img/facade.jpg" alt="" width="1500" height="844" loading="lazy">
+        </article>
+        <article class="story__step">
+          <span class="story__num">02</span>
+          <h3>Une façade ocre, des arches</h3>
+          <p>Rue de Nancy, à Chavigny : des fenêtres en arche, une ombrelle rouge, des pots sur le trottoir. Dedans, du bois brut, des plantes sur chaque étagère et un comptoir pour bavarder. Les clients l’écrivent eux-mêmes : « magasin très chaleureux ».</p>
+          <img class="story__mimg" src="img/comptoir.jpg" alt="" width="844" height="1500" loading="lazy">
+        </article>
+        <article class="story__step">
+          <span class="story__num">03</span>
+          <h3>Des fleurs, au naturel</h3>
+          <p>Des fleurs fraîches travaillées sans chichis : des roses qui tiennent, des bouquets qui suivent les saisons et les arrivages, des plantes qui se plaisent chez vous. Le plaisir des fleurs, tout simplement.</p>
+          <img class="story__mimg" src="img/roses-blanches.jpg" alt="" width="1351" height="1500" loading="lazy">
+        </article>
+        <article class="story__step">
+          <span class="story__num">04</span>
+          <h3>Rien que pour vous</h3>
+          <p>Un bouquet sur commande, un cadeau, un coup de cœur pour un proche ? On choisit ensemble les couleurs, le budget et le jour de retrait. Et pour celles et ceux qui hésitent : le chèque-cadeau Jadis &amp; Fleurs.</p>
+          <a class="link" href="#reserver" data-scroll>Préparer ma commande <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <img class="story__mimg" src="img/roses-rouges-a.jpg" alt="" width="1125" height="1500" loading="lazy">
+        </article>
+      </div>
+      <ol class="story__dots" aria-hidden="true"><li></li><li></li><li></li><li></li></ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CRÉATIONS (défilement horizontal) ============ -->
+<section class="hs edge-arches" id="creations" aria-labelledby="hs-title">
+  <div class="hs__pin">
+    <div class="hs__head">
+      <div>
+        <p class="eyebrow">Ce qui sort de l’atelier</p>
+        <h2 class="display" id="hs-title" data-split>Bouquets, plantes, <em>cadeaux.</em></h2>
+      </div>
+      <p class="hs__hint" aria-hidden="true">Faites défiler <svg class="ic"><use href="#i-arrow"/></svg></p>
+    </div>
+
+    <div class="hs__track">
+      <article class="card" data-tilt data-cursor="Voir">
+        <div class="card__media"><img src="img/roses-rouges-b.jpg" alt="Bouquet de roses rouges, orangées et crème" width="1125" height="1500" loading="lazy" data-parallax-img></div>
+        <div class="card__body">
+          <span class="card__tag">Sur mesure</span>
+          <h3>Bouquets composés</h3>
+          <p>Vos couleurs, votre budget, votre occasion. On compose, on emballe, vous n’avez plus qu’à offrir.</p>
+          <button class="link" type="button" data-prefill="bouquet">Demander un bouquet <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+
+      <article class="card card--down" data-tilt data-cursor="Voir">
+        <div class="card__media"><img src="img/roses-fuchsia.jpg" alt="Roses fuchsia striées dans un vase" width="1186" height="1500" loading="lazy" data-parallax-img></div>
+        <div class="card__body">
+          <span class="card__tag">Coup de cœur</span>
+          <h3>Des roses qui durent</h3>
+          <p>Blanches liserées de rose, rouge profond, fuchsia striées : demandez la variété du moment. Des roses qui tiennent longtemps, d’après les clients.</p>
+          <button class="link" type="button" data-prefill="roses">Demander des roses <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+
+      <article class="card" data-tilt data-cursor="Voir">
+        <div class="card__media"><img src="img/orchidees.jpg" alt="Orchidées blanches et mauves posées sur un meuble ancien en bois" width="844" height="1500" loading="lazy" data-parallax-img></div>
+        <div class="card__body">
+          <span class="card__tag">En boutique</span>
+          <h3>Orchidées</h3>
+          <p>Blanches, mauves, tachetées… elles attendent sur le vieux meuble en bois. Une orchidée et un bouquet : le duo qui a ravi une tante de Meuse (avis Google).</p>
+          <button class="link" type="button" data-prefill="plante">Réserver une orchidée <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+
+      <article class="card card--down" data-tilt data-cursor="Voir">
+        <div class="card__media"><img src="img/plantes-parquet.jpg" alt="Plantes vertes et fleuries sur une table ronde étagée dans la boutique" width="844" height="1500" loading="lazy" data-parallax-img></div>
+        <div class="card__body">
+          <span class="card__tag">Nouveauté</span>
+          <h3>Plantes d’intérieur</h3>
+          <p>Monstera, ficus, strelitzia, beaucarnea… et la petite nouvelle : le Schefflera LOVA, qui pousse directement sur une vraie pierre de lave.</p>
+          <button class="link" type="button" data-prefill="plante">Réserver une plante <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+
+      <article class="card" data-tilt data-cursor="Voir">
+        <div class="card__media"><img src="img/noel-couronne.jpg" alt="Couronne de Noël en sapin garnie de boules argentées et blanches (photo d’illustration)" width="1000" height="1500" loading="lazy" data-parallax-img></div>
+        <div class="card__body">
+          <span class="card__tag">Noël 2026</span>
+          <h3>Créations de Noël</h3>
+          <p>Ça s’active à l’atelier : les créations de fêtes sont en pleine production. Passez sentir l’ambiance, ou précommandez vos plantes de Noël dès 25,00 €.</p>
+          <a class="link" href="#noel" data-scroll>Voir la précommande <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="card card--down card--gift" data-tilt data-cursor="Offrir">
+        <div class="card__media card__media--gift">
+          <div class="gift" aria-hidden="true">
+            <svg class="ic gift__flower"><use href="#i-flower"/></svg>
+            <p class="gift__brand">Jadis <em>&amp;</em> Fleurs</p>
+            <p class="gift__title">Chèque-cadeau</p>
+            <p class="gift__hand">pour vous faire plaisir</p>
+          </div>
+        </div>
+        <div class="card__body">
+          <span class="card__tag">À offrir</span>
+          <h3>Chèques-cadeaux</h3>
+          <p>Vous hésitez entre un bouquet et un objet déco ? Laissez vos proches choisir ce qui leur fait plaisir. Disponibles à la boutique de Chavigny.</p>
+          <button class="link" type="button" data-prefill="cheque">Réserver un chèque-cadeau <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOËL : précommande ============ -->
+<section class="noel" id="noel" aria-labelledby="noel-title">
+  <div class="noel__wrap">
+    <div class="noel__side">
+      <div class="noel__sticky">
+        <p class="eyebrow eyebrow--light">Précommande · Noël 2026</p>
+        <h2 class="display" id="noel-title" data-split>Plantes de Noël, <em>sur commande.</em></h2>
+        <p class="lead">Agrumes, mimosa, grandes plantes vertes : choisissez vos variétés, la boutique s’occupe du reste.</p>
+        <dl class="noel__facts">
+          <div><dt>Date limite</dt><dd id="noelDeadline">samedi 21 novembre</dd></div>
+          <div><dt>Livraison</dt><dd>1re semaine de décembre, dès le mercredi</dd></div>
+        </dl>
+        <div class="countdown" id="countdown" aria-live="off">
+          <div><b data-cd="d">--</b><span>jours</span></div>
+          <div><b data-cd="h">--</b><span>heures</span></div>
+          <div><b data-cd="m">--</b><span>min</span></div>
+          <div><b data-cd="s">--</b><span>sec</span></div>
+        </div>
+        <p class="noel__closed" id="noelClosed" hidden>Les précommandes sont closes. Appelez la boutique : il reste peut-être des plantes à commander.</p>
+      </div>
+    </div>
+
+    <div class="noel__list">
+      <div class="noel__filters" role="group" aria-label="Filtrer par famille" id="noelFilters"></div>
+      <ul class="tags" id="noelGrid" aria-label="Plantes disponibles à la précommande"></ul>
+      <noscript><p class="noel__source">Activez JavaScript pour voir la liste et précommander, ou appelez la boutique au 03 83 31 83 92.</p></noscript>
+      <p class="noel__source">Tarifs de la boutique, publiés le 16 novembre 2026. Les plantes sont réservées à la commande : la boutique confirme votre demande.</p>
+    </div>
+  </div>
+
+  <div class="cartbar" id="cartbar" hidden>
+    <p><b id="cartCount">0 plante</b><span id="cartTotal">0,00 €</span></p>
+    <a class="btn btn--primary btn--sm" href="#reserver" data-scroll data-prefill="precommande"><span>Finaliser ma précommande</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+  </div>
+</section>
+
+<!-- ============ CHIFFRES CLÉS ============ -->
+<section class="stats edge-diagonal" id="chiffres" aria-labelledby="stats-title">
+  <div class="stats__wrap">
+    <p class="eyebrow eyebrow--light">La boutique en chiffres</p>
+    <h2 class="display" id="stats-title" data-split>Ouverte, <em>fidèle,</em> appréciée.</h2>
+    <div class="stats__grid">
+      <div class="stat">
+        <svg class="stat__ring" viewBox="0 0 200 200" aria-hidden="true"><ellipse data-draw pathLength="1" cx="100" cy="100" rx="92" ry="86" transform="rotate(-8 100 100)"/></svg>
+        <p class="stat__num"><span data-count="7" data-decimals="0">7</span></p>
+        <p class="stat__label">jours sur 7<small>ouvert tous les jours, même le dimanche matin</small></p>
+      </div>
+      <div class="stat">
+        <svg class="stat__ring" viewBox="0 0 200 200" aria-hidden="true"><ellipse data-draw pathLength="1" cx="100" cy="100" rx="92" ry="86" transform="rotate(6 100 100)"/></svg>
+        <p class="stat__num"><span data-count="38" data-decimals="0">38</span><i>h</i></p>
+        <p class="stat__label">d’ouverture par semaine<small>matin et après-midi, du lundi au dimanche</small></p>
+      </div>
+      <div class="stat">
+        <svg class="stat__ring" viewBox="0 0 200 200" aria-hidden="true"><ellipse data-draw pathLength="1" cx="100" cy="100" rx="92" ry="86" transform="rotate(-3 100 100)"/></svg>
+        <p class="stat__num"><span data-count="5" data-decimals="1">5,0</span><i>/5</i></p>
+        <p class="stat__label">note sur Google<small>sur les 2 premiers avis de clients</small></p>
+      </div>
+      <div class="stat">
+        <svg class="stat__ring" viewBox="0 0 200 200" aria-hidden="true"><ellipse data-draw pathLength="1" cx="100" cy="100" rx="92" ry="86" transform="rotate(9 100 100)"/></svg>
+        <p class="stat__num"><span data-count="14" data-decimals="0">14</span></p>
+        <p class="stat__label">plantes de Noël<small>agrumes, mimosa et plantes vertes à précommander</small></p>
+      </div>
+    </div>
+  </div>
+  <svg class="stats__petal stats__petal--a ic" aria-hidden="true"><use href="#i-flower"/></svg>
+  <svg class="stats__petal stats__petal--b ic" aria-hidden="true"><use href="#i-leaf"/></svg>
+</section>
+
+<!-- ============ GALERIE ============ -->
+<section class="gal" id="galerie" aria-labelledby="gal-title">
+  <div class="gal__head">
+    <p class="eyebrow">Instantanés</p>
+    <h2 class="display" id="gal-title" data-split>Dans la boutique, <em>en vrai.</em></h2>
+    <p class="lead">Photos de la boutique et de ses bouquets. Cliquez pour agrandir.</p>
+  </div>
+  <div class="gal__cols">
+    <div class="gal__col" data-speed="0.6">
+      <figure class="gal__item" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/facade.jpg" alt="La façade de la boutique L’Atelier – Jadis &amp; Fleurs, avec l’ombrelle rouge et les fleurs sur le trottoir" width="1500" height="844" loading="lazy"><figcaption>La façade, rue de Nancy</figcaption></button></figure>
+      <figure class="gal__item gal__item--arch" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/comptoir.jpg" alt="Le comptoir en bois brut et l’étagère à plantes de la boutique" width="844" height="1500" loading="lazy"><figcaption>Le comptoir en bois brut</figcaption></button></figure>
+      <figure class="gal__item" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/fleurs-coupees.jpg" alt="Seaux de fleurs coupées de toutes les couleurs : tournesols, chrysanthèmes, roses, gerberas" width="1500" height="844" loading="lazy"><figcaption>Fleurs coupées</figcaption></button></figure>
+      <figure class="gal__item" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/roses-rouges-a.jpg" alt="Roses rouges et orangées avec de la gypsophile" width="1125" height="1500" loading="lazy"><figcaption>Roses rouges</figcaption></button></figure>
+    </div>
+    <div class="gal__col" data-speed="-0.5">
+      <figure class="gal__item" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/bouquet-rose-celosie.jpg" alt="Bouquet de roses roses et de célosie rouge dans un vase" width="1073" height="1500" loading="lazy"><figcaption>Roses &amp; célosie</figcaption></button></figure>
+      <figure class="gal__item gal__item--arch" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/orchidees.jpg" alt="Orchidées blanches et mauves sur un meuble ancien" width="844" height="1500" loading="lazy"><figcaption>Les orchidées</figcaption></button></figure>
+      <figure class="gal__item" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/roses-blanches.jpg" alt="Roses blanches liserées de rose avec de la gypsophile" width="1351" height="1500" loading="lazy"><figcaption>Roses blanches &amp; gypsophile</figcaption></button></figure>
+    </div>
+    <div class="gal__col" data-speed="0.8">
+      <figure class="gal__item" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/roses-rouges-b.jpg" alt="Bouquet de roses rouges, orangées et crème sur une nappe à motif de feuilles" width="1125" height="1500" loading="lazy"><figcaption>Rouge, orangé, crème</figcaption></button></figure>
+      <figure class="gal__item gal__item--arch" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/plantes-parquet.jpg" alt="Plantes vertes sur une table ronde étagée" width="844" height="1500" loading="lazy"><figcaption>Le coin plantes</figcaption></button></figure>
+      <figure class="gal__item" data-tilt><button type="button" data-lightbox data-cursor="Voir"><img src="img/roses-fuchsia.jpg" alt="Roses fuchsia striées dans un vase" width="1186" height="1500" loading="lazy"><figcaption>Roses fuchsia</figcaption></button></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LE CARNET DU FLEURISTE ============ -->
+<section class="carnet edge-wave" id="carnet" aria-labelledby="carnet-title">
+  <div class="carnet__wrap">
+    <div class="carnet__head">
+      <p class="hand" aria-hidden="true">pense-bête →</p>
+      <h2 class="display" id="carnet-title" data-split>Le carnet <em>du fleuriste.</em></h2>
+      <p class="lead">Quatre gestes simples pour que votre bouquet tienne plus longtemps. Gratuits, et valables pour tous les bouquets.</p>
+    </div>
+    <ol class="carnet__list">
+      <li class="tip" data-tip>
+        <span class="tip__n">1</span>
+        <div><h3>Recoupez en biais</h3><p>Un bon centimètre de tige, en biais, avec un couteau ou un sécateur propre : la tige boit mieux.</p></div>
+        <svg class="tip__line" viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path data-draw pathLength="1" d="M2 7C60 2 120 11 180 6S270 3 298 7"/></svg>
+      </li>
+      <li class="tip" data-tip>
+        <span class="tip__n">2</span>
+        <div><h3>Une eau fraîche</h3><p>On change l’eau tous les deux jours et on rince le vase : les bactéries sont les premières ennemies d’un bouquet.</p></div>
+        <svg class="tip__line" viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path data-draw pathLength="1" d="M2 6C70 10 110 2 170 7S260 9 298 5"/></svg>
+      </li>
+      <li class="tip" data-tip>
+        <span class="tip__n">3</span>
+        <div><h3>Pas de feuilles dans l’eau</h3><p>Les feuilles immergées pourrissent et troublent l’eau : on les retire avant de composer le bouquet dans son vase.</p></div>
+        <svg class="tip__line" viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path data-draw pathLength="1" d="M2 8C50 3 100 9 160 5S250 8 298 4"/></svg>
+      </li>
+      <li class="tip" data-tip>
+        <span class="tip__n">4</span>
+        <div><h3>Loin des fruits et du soleil</h3><p>Les fruits mûrs dégagent de l’éthylène, qui fait faner les fleurs. Évitez aussi le radiateur et le plein soleil.</p></div>
+        <svg class="tip__line" viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path data-draw pathLength="1" d="M2 5C65 9 120 3 185 8S265 4 298 8"/></svg>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ AVIS ============ -->
+<section class="reviews" id="avis" aria-labelledby="rv-title">
+  <div class="reviews__wrap">
+    <div class="reviews__left">
+      <p class="eyebrow">Avis clients</p>
+      <h2 class="display" id="rv-title" data-split>Ils en parlent <em>mieux que nous.</em></h2>
+      <div class="rating">
+        <p class="rating__num"><span data-count="5" data-decimals="1">5,0</span></p>
+        <div>
+          <p class="rating__stars" aria-label="Note de 5 sur 5">
+            <svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg>
+          </p>
+          <p class="rating__src">sur Google · 2 avis</p>
+        </div>
+      </div>
+      <a class="link" href="https://www.google.com/maps/place/Jadis+%26+Fleurs/@48.6276076,6.1225736,17z/data=!4m6!3m5!1s0x4794a1250694124b:0xe3c9f5a7ad7f05f9!8m2!3d48.6276076!4d6.1225736!16s%2Fg%2F11zyslfjkv" target="_blank" rel="noopener">Voir tous les avis sur Google <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+
+    <div class="rv" id="rv" role="region" aria-roledescription="carrousel" aria-label="Avis des clients">
+      <div class="rv__viewport" data-cursor="Glisser">
+        <ul class="rv__track" id="rvTrack">
+          <li class="rv__card" role="group" aria-roledescription="diapositive" aria-label="1 sur 3">
+            <svg class="rv__quote ic" aria-hidden="true" viewBox="0 0 60 48"><path d="M0 48V28C0 12 9 2 24 0l2 7C17 9 13 14 13 21h11v27zM34 48V28C34 12 43 2 58 0l2 7c-9 2-13 7-13 14h11v27z" fill="currentColor"/></svg>
+            <blockquote>
+              <p>10000 fois merci pour le bouquet composé + l’orchidé… tout était parfait y compris l’accueil et ma tante de Meuse a kiffé. Je reviendrais, il faut faire vivre nos commerces qui sont à proximité… tout fut parfait.</p>
+            </blockquote>
+            <footer>
+              <p class="rv__stars" aria-label="5 étoiles sur 5"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></p>
+              <p><b>Nénette</b> · Local Guide<br><small>Avis Google · visité en septembre 2026</small></p>
+            </footer>
+          </li>
+          <li class="rv__card" role="group" aria-roledescription="diapositive" aria-label="2 sur 3">
+            <svg class="rv__quote ic" aria-hidden="true" viewBox="0 0 60 48"><path d="M0 48V28C0 12 9 2 24 0l2 7C17 9 13 14 13 21h11v27zM34 48V28C34 12 43 2 58 0l2 7c-9 2-13 7-13 14h11v27z" fill="currentColor"/></svg>
+            <blockquote>
+              <p>Magasin très chaleureux, de très bon produit, fleuriste très sympathique et professionnel, de très belle rose qui dur longtemps. Je recommande.</p>
+            </blockquote>
+            <footer>
+              <p class="rv__stars" aria-label="5 étoiles sur 5"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></p>
+              <p><b>E. M.</b> · Local Guide<br><small>Avis Google · visité en octobre 2026</small></p>
+            </footer>
+          </li>
+          <li class="rv__card rv__card--empty" role="group" aria-roledescription="diapositive" aria-label="3 sur 3">
+            <svg class="ic rv__flower" aria-hidden="true"><use href="#i-flower"/></svg>
+            <p class="rv__ask">Votre avis compte&nbsp;!</p>
+            <p>Vous êtes passé(e) à la boutique ? Racontez-le en quelques mots : cela aide la boutique, et les prochains clients.</p>
+            <a class="btn btn--primary btn--sm" href="https://www.google.com/maps/place/Jadis+%26+Fleurs/@48.6276076,6.1225736,17z/data=!4m6!3m5!1s0x4794a1250694124b:0xe3c9f5a7ad7f05f9!8m2!3d48.6276076!4d6.1225736!16s%2Fg%2F11zyslfjkv" target="_blank" rel="noopener"><span>Laisser un avis sur Google</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="rv__ctrl">
+        <button class="rv__btn" type="button" id="rvPrev" aria-label="Avis précédent"><svg class="ic" style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+        <div class="rv__bar" aria-hidden="true"><i id="rvBar"></i></div>
+        <button class="rv__btn" type="button" id="rvNext" aria-label="Avis suivant"><svg class="ic"><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPEL À L'ACTION ============ -->
+<section class="cta" id="appeler" aria-labelledby="cta-title">
+  <div class="cta__arch">
+    <video class="cta__video" muted loop playsinline preload="none" poster="video/bouquet-poster.jpg" aria-hidden="true" tabindex="-1" data-lazyvideo>
+      <source data-src="video/bouquet-720.mp4" type="video/mp4">
+    </video>
+    <div class="cta__shade"></div>
+  </div>
+  <div class="cta__content">
+    <p class="eyebrow eyebrow--light">Un bouquet, ça se commande.</p>
+    <h2 class="display" id="cta-title" data-split>Appelez, <em>on s’occupe</em> du reste.</h2>
+    <a class="cta__tel" href="tel:+33383318392" aria-label="Appeler la boutique au 03 83 31 83 92" data-cursor="Appeler"><span data-split-chars>03 83 31 83 92</span></a>
+    <div class="cta__btns">
+      <a class="btn btn--primary btn--mag" href="#reserver" data-scroll><span>Réserver un retrait</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--glass btn--mag" href="#venir" data-scroll><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>Nous trouver</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RÉSERVER ============ -->
+<section class="book edge-scallop" id="reserver" aria-labelledby="book-title">
+  <div class="book__wrap">
+    <div class="book__intro">
+      <p class="eyebrow">Commander · réserver un retrait</p>
+      <h2 class="display" id="book-title" data-split>Composez votre <em>demande,</em> on s’occupe du reste.</h2>
+      <p class="lead">Ici, ni plateforme ni compte à créer : vous préparez votre demande en trois étapes, et elle part directement à la boutique par e-mail. Gwladys vous répond pour confirmer la disponibilité et l’heure de retrait.</p>
+      <ul class="book__how">
+        <li><b>1</b><span>Vous choisissez ce que vous voulez</span></li>
+        <li><b>2</b><span>Vous réservez un créneau de retrait</span></li>
+        <li><b>3</b><span>Vous envoyez, ou vous appelez : au choix</span></li>
+      </ul>
+    </div>
+
+    <form class="book__form" id="bookForm" novalidate autocomplete="on">
+      <ol class="steps" aria-label="Étapes">
+        <li><button type="button" class="steps__btn is-active" data-goto="1"><b>1</b><span>Votre envie</span></button></li>
+        <li><button type="button" class="steps__btn" data-goto="2"><b>2</b><span>Le retrait</span></button></li>
+        <li><button type="button" class="steps__btn" data-goto="3"><b>3</b><span>Vos coordonnées</span></button></li>
+      </ol>
+
+      <fieldset class="step is-active" data-step="1">
+        <legend>Qu’est-ce qui vous ferait plaisir&nbsp;?</legend>
+        <div class="chips" id="typeChips" role="radiogroup" aria-label="Type de demande"></div>
+        <p class="cartnote" id="cartNote" hidden></p>
+        <div class="field">
+          <label for="occasionBtn" id="occasionLabel">Pour quelle occasion&nbsp;?</label>
+          <div class="select" id="occasionSelect">
+            <select id="occasion" name="occasion" class="select__native" tabindex="-1" aria-hidden="true">
+              <option value="">— Facultatif —</option>
+              <option>Un anniversaire</option>
+              <option>Un remerciement</option>
+              <option>Une naissance</option>
+              <option>Un cadeau de fêtes</option>
+              <option>Pour moi, pour ma maison</option>
+              <option>Autre occasion</option>
+            </select>
+            <button type="button" class="select__btn" id="occasionBtn" aria-haspopup="listbox" aria-expanded="false" aria-controls="occasionList" aria-labelledby="occasionLabel occasionBtn">
+              <span class="select__val is-placeholder">— Facultatif —</span>
+              <svg class="ic" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <ul class="select__list" id="occasionList" role="listbox" tabindex="-1" aria-labelledby="occasionLabel" data-lenis-prevent></ul>
+          </div>
+        </div>
+        <div class="field" id="budgetField">
+          <span class="field__label" id="budgetLabel">Budget indicatif</span>
+          <div class="chips chips--sm" id="budgetChips" role="radiogroup" aria-labelledby="budgetLabel"></div>
+        </div>
+        <div class="step__nav"><span></span><button class="btn btn--primary btn--sm" type="button" data-next><span>Choisir le retrait</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+      </fieldset>
+
+      <fieldset class="step" data-step="2" hidden>
+        <legend>Quand passez-vous récupérer votre commande&nbsp;?</legend>
+        <div class="dates" id="dateStrip" role="radiogroup" aria-label="Jour de retrait"></div>
+        <p class="hint" id="dateHint"></p>
+        <div class="slots" id="slotGrid" role="radiogroup" aria-label="Heure de retrait"></div>
+        <div class="step__nav"><button class="btn btn--ghost btn--sm" type="button" data-prev><span>Retour</span></button><button class="btn btn--primary btn--sm" type="button" data-next><span>Mes coordonnées</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+      </fieldset>
+
+      <fieldset class="step" data-step="3" hidden>
+        <legend>Comment peut-on vous joindre&nbsp;?</legend>
+        <div class="field"><label for="f-name">Prénom et nom</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+        <div class="field-row">
+          <div class="field"><label for="f-phone">Téléphone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="06 12 34 56 78"></div>
+          <div class="field"><label for="f-mail">E-mail</label><input id="f-mail" name="email" type="email" autocomplete="email" placeholder="vous@exemple.fr"></div>
+        </div>
+        <div class="field"><label for="f-msg">Un détail à nous dire&nbsp;? <small>couleurs, message pour la carte, allergies…</small></label><textarea id="f-msg" name="message" rows="3"></textarea></div>
+        <p class="legal-note">Ces informations servent uniquement à préparer votre demande : elles ne sont enregistrées nulle part et ne partent qu’au moment où vous envoyez votre e-mail.</p>
+        <div class="step__nav"><button class="btn btn--ghost btn--sm" type="button" data-prev><span>Retour</span></button><span></span></div>
+      </fieldset>
+    </form>
+
+    <aside class="ticket" id="ticket" aria-label="Récapitulatif de votre demande" data-tilt>
+      <div class="ticket__top">
+        <svg class="ic" aria-hidden="true"><use href="#i-flower"/></svg>
+        <div><p class="ticket__brand">Jadis <em>&amp;</em> Fleurs</p><p class="ticket__sub">Demande de retrait en boutique</p></div>
+      </div>
+      <dl class="ticket__lines" id="ticketLines"></dl>
+      <div class="ticket__total" id="ticketTotal" hidden><span>Total précommande</span><b id="ticketSum">0,00 €</b></div>
+      <p class="ticket__status" id="ticketStatus" role="status" aria-live="polite"></p>
+      <div class="ticket__actions">
+        <a class="btn btn--primary" id="btnMail" href="mailto:jadisetfleurs@outlook.fr"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg><span>Envoyer par e-mail</span></a>
+        <a class="btn btn--primary" id="btnSms" href="#" hidden><svg class="ic" aria-hidden="true"><use href="#i-sms"/></svg><span>Envoyer par SMS</span></a>
+        <a class="btn btn--ghost" href="tel:+33383318392"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Plutôt appeler</span></a>
+        <div class="ticket__mini">
+          <button type="button" id="btnCopy"><svg class="ic" aria-hidden="true"><use href="#i-copy"/></svg><span>Copier la demande</span></button>
+          <button type="button" id="btnIcs"><svg class="ic" aria-hidden="true"><use href="#i-cal"/></svg><span>Ajouter à mon agenda</span></button>
+        </div>
+      </div>
+      <p class="ticket__foot">Votre demande n’est pas encore confirmée : la boutique vous répond pour valider.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ NOUS TROUVER ============ -->
+<section class="venir" id="venir" aria-labelledby="venir-title">
+  <div class="venir__wrap">
+    <div class="venir__info">
+      <p class="eyebrow">Nous trouver</p>
+      <h2 class="display" id="venir-title" data-split>Rue de Nancy, <em>à Chavigny.</em></h2>
+      <address class="venir__addr">
+        <a href="https://www.google.com/maps/place/Jadis+%26+Fleurs/@48.6276076,6.1225736,17z/data=!4m6!3m5!1s0x4794a1250694124b:0xe3c9f5a7ad7f05f9!8m2!3d48.6276076!4d6.1225736!16s%2Fg%2F11zyslfjkv" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>8a rue de Nancy<br>54230 Chavigny</span></a>
+        <a href="tel:+33383318392"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>03 83 31 83 92</span></a>
+        <a href="mailto:jadisetfleurs@outlook.fr"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg><span>jadisetfleurs@outlook.fr</span></a>
+      </address>
+      <div class="hours" id="hours" aria-label="Horaires d’ouverture">
+        <p class="hours__title"><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg> Horaires <span class="status status--inline" id="hoursStatus"><i class="status__dot"></i><span></span></span></p>
+        <ul id="hoursList"></ul>
+      </div>
+      <div class="venir__btns">
+        <a class="btn btn--primary btn--mag" href="https://www.google.com/maps/place/Jadis+%26+Fleurs/@48.6276076,6.1225736,17z/data=!4m6!3m5!1s0x4794a1250694124b:0xe3c9f5a7ad7f05f9!8m2!3d48.6276076!4d6.1225736!16s%2Fg%2F11zyslfjkv" target="_blank" rel="noopener"><span>Ouvrir dans Google Maps</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <ul class="social">
+        <li><a href="https://www.facebook.com/jadisetfleurs/" target="_blank" rel="noopener" aria-label="Facebook de Jadis &amp; Fleurs (nouvelle fenêtre)"><svg class="ic"><use href="#i-fb"/></svg><span>Facebook</span></a></li>
+        <li><a href="https://www.instagram.com/jadisetfleurs/" target="_blank" rel="noopener" aria-label="Instagram de Jadis &amp; Fleurs (nouvelle fenêtre)"><svg class="ic"><use href="#i-ig"/></svg><span>Instagram</span></a></li>
+      </ul>
+    </div>
+    <div class="venir__map" data-reveal="mask">
+      <iframe title="Carte Google Maps : Jadis &amp; Fleurs, 8a rue de Nancy, Chavigny" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+        src="https://maps.google.com/maps?q=Jadis%20%26%20Fleurs%2C%208a%20Rue%20de%20Nancy%2C%2054230%20Chavigny&amp;hl=fr&amp;z=16&amp;output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer edge-arches" id="footer">
+  <div class="footer__top">
+    <div>
+      <p class="footer__kick">Jadis &amp; Fleurs</p>
+      <p class="footer__line">Fleuriste à Chavigny.<br>Le plaisir des fleurs, au naturel.</p>
+    </div>
+    <div>
+      <h3>Boutique</h3>
+      <p>8a rue de Nancy<br>54230 Chavigny</p>
+      <p><a href="tel:+33383318392">03 83 31 83 92</a><br><a href="mailto:jadisetfleurs@outlook.fr">jadisetfleurs@outlook.fr</a></p>
+    </div>
+    <div>
+      <h3>Explorer</h3>
+      <ul>
+        <li><a href="#atelier" data-scroll>L’Atelier</a></li>
+        <li><a href="#creations" data-scroll>Créations</a></li>
+        <li><a href="#noel" data-scroll>Précommande de Noël</a></li>
+        <li><a href="#reserver" data-scroll>Commander</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Suivre</h3>
+      <ul class="footer__social">
+        <li><a href="https://www.facebook.com/jadisetfleurs/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-fb"/></svg>Facebook</a></li>
+        <li><a href="https://www.instagram.com/jadisetfleurs/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer__word" aria-hidden="true">Jadis <em>&amp;</em> Fleurs</p>
+  <div class="footer__bottom">
+    <p>© <span id="year">2026</span> Jadis &amp; Fleurs · Fait avec soin à Chavigny</p>
+    <p><button type="button" id="legalBtn">Mentions légales &amp; crédits</button> · <a href="#top" data-scroll>Retour en haut ↑</a></p>
+  </div>
+</footer>
+
+<a class="fab" id="fab" href="tel:+33383318392" aria-label="Appeler Jadis &amp; Fleurs"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>Appeler</span></a>
+
+<!-- ============ Lightbox & mentions ============ -->
+<dialog class="lb" id="lightbox" aria-label="Visionneuse photo">
+  <button class="lb__close" type="button" aria-label="Fermer" data-lb-close><svg class="ic"><use href="#i-close"/></svg></button>
+  <button class="lb__nav lb__nav--prev" type="button" aria-label="Photo précédente" data-lb-prev><svg class="ic" style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+  <figure><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb__nav lb__nav--next" type="button" aria-label="Photo suivante" data-lb-next><svg class="ic"><use href="#i-arrow"/></svg></button>
+</dialog>
+
+<dialog class="legal" id="legal" aria-labelledby="legal-title">
+  <button class="lb__close" type="button" aria-label="Fermer" data-legal-close><svg class="ic"><use href="#i-close"/></svg></button>
+  <h2 id="legal-title">Mentions légales &amp; crédits</h2>
+  <h3>Éditeur</h3>
+  <p>Jadis &amp; Fleurs (EURL) — 8a rue de Nancy, 54230 Chavigny — 03 83 31 83 92 — jadisetfleurs@outlook.fr<br>SIRET : <em>à compléter</em></p>
+  <h3>Hébergement</h3>
+  <p><em>À compléter selon l’hébergeur retenu.</em></p>
+  <h3>Données personnelles</h3>
+  <p>Ce site ne dépose aucun cookie de suivi et ne contient aucun formulaire relié à un serveur : les informations saisies dans la demande de réservation restent sur votre appareil jusqu’à ce que vous décidiez d’envoyer un e-mail. La carte intégrée est fournie par Google Maps, qui peut déposer ses propres cookies lorsqu’elle se charge.</p>
+  <h3>Crédits</h3>
+  <p>Photos de la boutique et des bouquets : Jadis &amp; Fleurs (fiche Google et réseaux sociaux de la boutique). Photos d’illustration (couronne de Noël, agrumes, mimosa, plantes vertes de la précommande) et vidéos d’ambiance : <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a> (licence libre d’utilisation). Polices : Fraunces, Hanken Grotesk, Caveat (SIL Open Font License). Animations : GSAP et Lenis.</p>
+  <p>Les avis cités proviennent de la fiche Google de la boutique ; leurs auteurs sont indiqués tels qu’affichés par Google.</p>
+</dialog>
+
+<script src="js/data.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/vendor/gsap.min.js" defer></script>
+<script src="js/vendor/ScrollTrigger.min.js" defer></script>
+<script src="js/vendor/lenis.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
